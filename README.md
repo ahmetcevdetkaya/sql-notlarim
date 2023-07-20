@@ -36,8 +36,8 @@
 
 
 -4.***Parasal Veri Tipleri***
--**money:**8 byte boyutunda, yaklaşı -2⁶⁴ ile 2⁶⁴ arasında parasal değerleri tutmak için kullanılır. 4 basamağa kadar duyarlı ondalık tipli verileri saklar.
--**smallmoney**4 byte uzunluğunda yaklaşık -214.000 ile 214.000 arası parasal değerleri tutmak için kullanılır.Money tipinde olduğu gibi 4 basamağa kadar duyarlı ondalık tipli verileri saklarken kullanılır.
+-**money:** 8 byte boyutunda, yaklaşı -2⁶⁴ ile 2⁶⁴ arasında parasal değerleri tutmak için kullanılır. 4 basamağa kadar duyarlı ondalık tipli verileri saklar.
+-**smallmoney** 4 byte uzunluğunda yaklaşık -214.000 ile 214.000 arası parasal değerleri tutmak için kullanılır.Money tipinde olduğu gibi 4 basamağa kadar duyarlı ondalık tipli verileri saklarken kullanılır.
 
 
 -5.***Tarih-Zaman Veri Tipleri*** 
@@ -50,13 +50,13 @@
 
 
 -6.***Diğer Veri Tipleri***
--**sql_variant:** Sayı,metin, binary gibi farklı veri tiplerini depolamak için kullanılır
--**xml:**XML türünde veri saklamak için kullanılır. Kapasitesi 2 GB’dır
--**geometry:** Öklid koordinat sistemine ait verileri tutmak için kullanılır.
--**timestamp:**: Tabloya kayıt eklendiğinde , güncellendiğinde binary türünde özel değer alan veri tipidir.
--**uniqueidentifier:** 16 byte uzunluğunda benzersiz GUID tipinde veri tutar.İki GUID birbirinden tamamen farklıdır eşit olamazlar.
--**hierarchyid:** Ağaç veri modeli ve ya hiyerarşik olarak sınflandırılmış verileri saklamak için kullanılır.
--**geography:**  Coğrafi koordinat ve GPS verilerini tutmak için kullanılır.
+- **sql_variant:** Sayı,metin, binary gibi farklı veri tiplerini depolamak için kullanılır
+- **xml:**XML türünde veri saklamak için kullanılır. Kapasitesi 2 GB’dır
+- **geometry:** Öklid koordinat sistemine ait verileri tutmak için kullanılır.
+- **timestamp:**: Tabloya kayıt eklendiğinde , güncellendiğinde binary türünde özel değer alan veri tipidir.
+- **uniqueidentifier:** 16 byte uzunluğunda benzersiz GUID tipinde veri tutar.İki GUID birbirinden tamamen farklıdır eşit olamazlar.
+- **hierarchyid:** Ağaç veri modeli ve ya hiyerarşik olarak sınflandırılmış verileri saklamak için kullanılır.
+- **geography:**  Coğrafi koordinat ve GPS verilerini tutmak için kullanılır.
 
 
 
