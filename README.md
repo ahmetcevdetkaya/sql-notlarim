@@ -68,6 +68,9 @@
 
 -kaynakça:https://medium.com/@berkaykosak8/sql-server-veri-tipleri-2a612ebc9f68
 
+**SQl SORGU KOMUTLARI NELERDİR?**
+-https://www.yazilimkodlama.com/sql-server-2/sql-sorgulari-ve-ornekleri/
+
 
 
 
