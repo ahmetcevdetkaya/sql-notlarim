@@ -66,11 +66,64 @@
 
 
 
--kaynakça:https://medium.com/@berkaykosak8/sql-server-veri-tipleri-2a612ebc9f68
 
-**SQl SORGU KOMUTLARI NELERDİR?**
--https://www.yazilimkodlama.com/sql-server-2/sql-sorgulari-ve-ornekleri/
+**SQL SORGU KOMUTLARI NELERDİR?**
+- Öncelikle neden SQL sorusuna cevap verelim,düşünün çalıştığınız şirketteki verileri düzenlemelisiniz ama belkide binlerce satır veri var elinizde manuel bir şekilde düzenlemek ne kadar kolay olurdu bir düşünün?İşte SQL burda devreye giriyor ve bizlere yardım ediyor.
 
+- Peki SQL bize bu yardımı nasıl sunuyor sizi fazla yoramdan cevabı vereyim "SQl SORGU KOMUTLARI" yardımı ile peki SQL sorgu komutları nelerdir?
+
+- **Sql select:** Basitçe istedğiniz veri tipindeki verileri size sunar
+- Örnek olarak:
+- Select ad,soyad, FROM müşteri
+- Bu kodu yazdığınız zaman müşteri tablosundaki ad soyad verileri karşınıza çıkar
+
+- **Sql select dıstınct:** Sql select size hem satır hem sütun olacak şekilde verileri gösterirken sql dıstınct size sütun olarak gösterir
+- Örnek olarak:
+- SELECT DISTINCT sehir FROM musteri;
+- Bu kodu yazmanız halinde size yukarıdan-aşağıya doğru şehir isimlerini gösterecekdir
+
+-**Sql where:** Sql select size bütün verileri gösterirken Sql where istedğiniz konumdaki verileri gösterir yani İstanbuldaki Müşteriler gibi
+- Örnek olarak:
+- SELECT * FROM musteri WHERE sehir='istanbul'
+- Bu kodu yazmanız halinde size istanbuldaki müşterileri gösterir
+
+-*Where komudu ile kullanabileğiniz operatörler*
+- "=" = Eşit.
+- "<>" = Eşit değil. Note:Bazı versiyonlarda "!=" kullanılabilir
+- ">" = Büyüktür.
+- "<" = Küçüktür.
+- ">=" = Büyük Eşit.
+- "<=" = Küçük Eşit.
+- BETWEEN = Arasında.
+- LIKE = Örüntü arama.
+- IN = Bir sutün içindeki birden fazla olasığı belirlemek için
+
+- _SQL AND-OR kullanımı_
+
+- _SQl AND_
+- 1.koşul ve 2.koşulun doğru olduğu durumlarda kullanılır
+- Örneğin musteri tablosunda  Cinsiyeti “E” ve Şehri “İstanbul” olanları listelemek için;
+- SELECT * FROM musteri WHERE sehir='İstanbul' AND cinsiyet='E' kodunu yazmanız gerekir
+
+- _SQL OR_
+- Aynı "And" komudu gibi 1.koşul ve 2. koşulun doğru olduğu durumlarda kullanılır
+- Örneğin musteri tablosunda şehri İstanbul yada Samsun olanları listelemek için;
+- SELECT * FROM musteri WHERE sehir='İstanbul'OR sehir='Samsun' kodunu yazmanız gerekir
+
+- _SQL AND VE OR'U AYNI ANDA KULLANMA_
+- Örnek olarak musteri tablosunda cinsiyeti ‘K’ olan ve Şehri “Konya” yada “Manisa” olanları listelemek için; 
+- SELECT * FROM musteri WHERE cinsiyet='K' AND (City='Konya' OR City='Manisa') kodunu yazmak gerekir
+
+- **Sql order by:** 
+
+  
+
+    
+
+  
+
+
+  
 
 
 
