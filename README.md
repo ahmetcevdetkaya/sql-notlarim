@@ -114,7 +114,8 @@
 - Örnek olarak musteri tablosunda cinsiyeti ‘K’ olan ve Şehri “Konya” yada “Manisa” olanları listelemek için; 
 - SELECT * FROM musteri WHERE cinsiyet='K' AND (City='Konya' OR City='Manisa') kodunu yazmak gerekir
 
-- **Sql order by:** 
+- **Sql order by:**
+![WhatsAppUIClone](https://user-images.githubusercontent.com/48753655/123524344-37a57a80-d6d2-11eb-9523-ba2f7a49a10b.PNG)
 
   
 
